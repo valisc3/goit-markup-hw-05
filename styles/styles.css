@@ -637,7 +637,7 @@ address {
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0.1) rotate(-180deg);
 }
-.icon-close {
+/* .icon-close {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -651,4 +651,18 @@ address {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
+} */
+.icon-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: inline-block;
+  background-image: url(../images/close-black.svg);
+  background-color: inherit;
+  background-size: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  cursor: pointer;
+  background-position: center;
 }

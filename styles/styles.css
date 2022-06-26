@@ -34,10 +34,6 @@ img {
 address {
   font-style: normal;
 }
-body {
-  margin: 0;
-  padding-top: 64px;
-}
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -64,10 +60,10 @@ body {
 }
 /* --------HEADER-------- */
 .page-header {
-  position: fixed;
+  /* position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100%; */
 
   background-color: var(--hero-text-color);
 }
@@ -279,13 +275,11 @@ body {
   bottom: 0;
   display: flex;
   width: 100%;
-  padding: 27px 82px;
+  height: 70px;
   justify-content: center;
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   align-items: center;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 
   background-color: rgba(47, 48, 58, 0.8);
@@ -507,7 +501,7 @@ body {
 }
 /* --------PRODUCTS-------- */
 .filter-btn {
-  transition: background-color var(--transition) color var(--transition),
+  transition: background-color var(--transition), color var(--transition),
     box-shadow var(--transition);
 
   padding: 6px 22px;
@@ -652,6 +646,7 @@ body {
   justify-content: center;
   width: 30px;
   height: 30px;
+  color: #000000;
   background-color: inherit;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
